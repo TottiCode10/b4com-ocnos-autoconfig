@@ -112,7 +112,7 @@ pip install netmiko
 
 B4Com OS по умолчанию транзакционная (нужен commit). Netmiko это не обрабатывает, поэтому в начале каждого скрипта отправляется:
 
-cmlsh transaction disable
+- cmlsh transaction disable
 
 Это выключает commit на время сессии.
 
