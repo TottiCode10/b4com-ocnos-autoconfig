@@ -1,11 +1,11 @@
 # =========================
 # Параметры подключения
 # =========================
-HOST = "192.168.56.103"             # IP устройства 
-PORT = 5000                        # SSH порт,при работе в симуляторе gns3 можно использовать DEVICE_TYPE = "ipinfusion_ocnos_telnet" и порт который предоставляет gns3
-USER = "ocnos"                     # Имя пользователя
-PASSWORD = "ocnos"                 # Пароль 
-DEVICE_TYPE = "ipinfusion_ocnos_telnet"   # Netmiko device_type для OcNOS/B4Com, при работе в симуляторе gns3 можно использовать DEVICE_TYPE = "ipinfusion_ocnos_telnet"
+HOST = "10.10.10.10"             # IP устройства 
+PORT = 22                       # SSH порт,при работе в симуляторе gns3 можно использовать DEVICE_TYPE = "ipinfusion_ocnos_telnet" и порт который предоставляет gns3
+USER = "admin"                     # Имя пользователя
+PASSWORD = "admin"                 # Пароль 
+DEVICE_TYPE = "ipinfusion_ocnos"   # Netmiko device_type для OcNOS/B4Com, при работе в симуляторе gns3 можно использовать DEVICE_TYPE = "ipinfusion_ocnos_telnet"
 
 # =========================
 # Логи и тайминги
