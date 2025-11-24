@@ -63,32 +63,32 @@ pip install netmiko
 
 Рекомендуемый порядок запуска:
 
-python 00_check_connect_b4.py
+- python 00_check_connect_b4.py
 
-python 10_create_vlans_b4.py
+- python 10_create_vlans_b4.py
 
-python 11_set_trunk_b4.py
+- python 11_set_trunk_b4.py
 
-python 20_create_svis_b4.py
+- python 20_create_svis_b4.py
 
-python 30_create_vrfs_b4.py
+- python 30_create_vrfs_b4.py
 
-python 31_bind_svis_to_vrf_b4.py
+- python 31_bind_svis_to_vrf_b4.py
 
-python 35_create_vrrp_b4.py
+- python 35_create_vrrp_b4.py
 
-python 50_create_ospf_b4.py
+- python 50_create_ospf_b4.py
 
-python 40_collect_outputs_b4.py
+- python 40_collect_outputs_b4.py
 
 Если нужен полный прогон одной командой:
 
-python run_all_b4.py
+- python run_all_b4.py
 
 
 Удаление/сброс:
 
-python 90_delete_all_b4.py
+- python 90_delete_all_b4.py
 
 
 Как работают логи
